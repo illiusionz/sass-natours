@@ -23,30 +23,80 @@
 
                 <a href="#" class="btn btn--white btn--animated">Discover Our Tours</a>
             </div>  
-
         </header>
 
-        <script>
+        <div class="grid-test">
+            <div class="row">
+                <div class="col-1-of-2">
+                    Col of 1 of 2
+                </div>
+                <div class="col-1-of-2">
+                    Col of 1 of 2
+                </div>
+            </div>
 
-            const avgMarketPrice = 17.75;
-            const beforeAvgPrice = 59.65;
-            const oversold = beforeAvgPrice - avgMarketPrice;
-            const capital = 5000;
-            const shares = (capital / avgMarketPrice);
-            const profit = shares * oversold;
-            
-           const btn = document.querySelector('.btn');
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col of 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col of 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col of 1 of 3
+                </div>
+            </div>
 
-           btn.addEventListener('click', () => {
-                console.log('capital: '+capital);
-                console.log('shares: '+shares);
-                console.log('oversold: '+oversold);
-                console.log('profit: '+profit);
-                console.log('Norwegian Cruise Line: '+avgMarketPrice);
-                console.log('beforeAvgPrice: '+beforeAvgPrice);
-                return ;
-           });
-        </script>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col of 1 of 3
+                </div>
+                <div class="col-2-of-3">
+                    Col of 2 of 3
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col of 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col of 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col of 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col of 1 of 4
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col of 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col of 1 of 4
+                </div>
+                <div class="col-2-of-4">
+                    Col of 2 of 4
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col of 1 of 4
+                </div>
+                <div class="col-3-of-4">
+                    Col of 3 of 4
+                </div>
+            </div>
+
+
+        </div>
         
     </body>
 </html>

@@ -18,8 +18,12 @@
   "homepage": "https://github.com/illiusionz/Sass-natours#readme",
   "devDependencies": {
     "node-sass": "^4.13.1"
+<<<<<<< HEAD
   },
   "dependencies": {
     "live-server": "^1.2.1"
   }
+=======
+  }  
+>>>>>>> c9740bf8f78755a5e9feb5bb736a81d60084a7b4
 }

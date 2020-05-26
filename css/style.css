@@ -4,12 +4,14 @@
 900 - 1200px:  Tablet Landscape
 [1200 - 1800] is where our normal styles apply
 1800px + :     Big Desktop
-*/
+
 /*breakpoint arguement choices:
 - phone
 - tab-port
 - tab-land
 - big-desktop
+
+1em = 16px
 */
 @keyframes moveInLeft {
   0% {
@@ -46,9 +48,15 @@
 
 html {
   font-size: 62.5%; }
-  @media (max-width: 600px) {
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
@@ -140,7 +148,8 @@ body {
   border-radius: 10rem;
   transition: all .2s;
   position: relative;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  border: none; }
 
 .btn:hover {
   transform: translateY(-3px);

@@ -11,10 +11,7 @@
        position: relative;
        font-size: $default-font-size;
        border: none;
-   }
-
-   &:hover {
-      transform: translateY(-3px);
+   } 
       box-shadow: 0 1rem 2rem rgba($color-black, .2);
 
       &::after {

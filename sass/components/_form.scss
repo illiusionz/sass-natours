@@ -34,7 +34,6 @@
         &::-webkit-input-placeholder {
             color:$color-grey-dark-2;
         }
-
     }
 
     &__label {
@@ -104,5 +103,4 @@
     &__radio-input:checked ~ &__radio-label &__radio-button::after{
         opacity:1;
     }
-
 }
